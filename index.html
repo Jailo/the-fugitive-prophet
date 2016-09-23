@@ -11,7 +11,7 @@
 	<script src="https://use.fontawesome.com/81462617da.js"></script>
 
 	<!--Bootstrap-->
-	<link rel="stylesheet" type="text/css" href="Bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="Bootstrap/css/bootstrap.min.css">
 
 	<!--style.css-->
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -19,18 +19,32 @@
 </head>
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
   
-  	<!--Navigation-->
+  <!--Navigation-->
   	  <nav class="navbar navbar-default navbar-fixed-top" id="nav-top">
   	  <div class="container">
+  	  	
+  	  	
+  	  	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+  	  	  <span class="sr-only">Toggle Navigation</span>
+  	  	  <span class="icon-bar"></span>
+  	  	  <span class="icon-bar"></span>
+  	  	  <span class="icon-bar"></span>
+  	  	</button>
+
   	  	<a href="#home-page" class="navbar-brand" id="logo">The Fugitive Prophet</a>
 
-  	  	<ul class="nav navbar-nav navbar-right" id="nav-text">
-  	  		<li><a href="#about-page">About</a></li>
-  	  		<li><a href="#about-page">Contact</a></li>
+
+        <div class="collapse navbar-collapse" id="navbar">
+  	  	  <ul class="nav navbar-nav navbar-right" id="nav-text">
+  	  	    
+  	  	    <li><a href="#about-page">About</a></li>
+  	  		<li><a href="#contact">Contact</a></li>
   	  		<li class="buy-book"><a href="#email-signup-page">Get the book</a></li>
-  	  	</ul>
-  	  	</div><!--/container-fluid-->
-  	  </nav><!--/Navigation-->
+
+  	  	  </ul>
+  	  	 </div>
+  	  </div><!--/container-fluid-->
+  	 </nav><!--/Navigation-->
 
 
     <!--Home page-->
@@ -83,13 +97,14 @@
 
       <div class="row">
         <div class="col-md-6">
-        	<img src="https://www.surpassingglory.org/wp-content/uploads/2014/11/Gary-Fishman.jpg" class="img-responsive center-block" alt="Photo of books author, Gary Fishman">
+        	<img src="https://www.surpassingglory.org/wp-content/uploads/2014/11/Gary-Fishman.jpg" class="img-responsive center-block" alt="Photo of book author, Gary Fishman">
 
-        	<h4 class="text-center contact"><b>Stay In Touch</b></h4>
+        	<h4 class="text-center contact" id="contact"><b>Stay In Touch</b></h4>
               <div class="center-block font-awesome">
         	    <a href="https://www.facebook.com/gary.fishman.5?fref=ts" target="_blank"><i class="fa fa-3x fa-facebook-square" aria-hidden="true"></i></a>
 
         	    <a href="https://plus.google.com/u/0/115189125722706629442" target="_blank"><i class="fa fa-3x fa-google-plus-square" aria-hidden="true"></i></a>
+        	    
         	    <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=dreams@sanctuaryfellowship.org&su=SUBJECT&body=Write%20your%20messege%20here&tf=1" target="_blank"><i class="fa fa-3x fa-envelope" aria-hidden="true"></i></a>
               </div>
 
@@ -125,5 +140,10 @@
       </div>
     </footer>
     
+
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>
