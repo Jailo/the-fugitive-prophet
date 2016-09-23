@@ -77,12 +77,11 @@ body{
 .email-signup{
 	height:325px;
 	width:100%;
-	padding:50px;
+	padding:80px;
 	border-top:solid lightgrey 1px;
 	border-top-width: 80%;
-	margin-top: 80px;
+	margin-top: 180px;
 	border-bottom: solid lightgrey 1px;
-	margin-top: 50px;
 	background-color: #B6D6C6;
 }
 
@@ -95,12 +94,31 @@ body{
 
 /*About Page*/
 .about-page{
-	padding-bottom: 70px;
+	padding-bottom: 30px;
 }
 .about-header{
-	margin-top: 45px;
+	margin-top: 69px;
 	margin-bottom: 60px;
 }
+
+
+/*Contact page*/
+
+.contact{
+	margin-top: 30px;
+}
+.font-awesome{
+	width: inherit;
+}
+i {
+	padding-left: 40px;
+	color: grey;
+}
+i:hover{
+	color:#4E8E4E;
+}
+
+
 
 /*Footer*/
 #footer{
