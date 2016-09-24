@@ -8,10 +8,10 @@ p{
 	font-size: 16px;
 } 
 p a {
-	color:#4E8E4E;
+	color:#588d78;
 }
 p a:hover{
-	color:#3A6B3A;
+	color:#314e43;
 	text-decoration: none;
 }
 body{
@@ -71,25 +71,58 @@ body{
 
 
 
-/*Email Signup Section*/
+/*Buy Book section*/
 
-.email-signup{
-	height:325px;
+hr{
+	border: solid white;
+}
+
+.buy-section{
+	position: relative;
+	height:400px;
 	width:100%;
-	padding:80px;
 	border-top:solid lightgrey 1px;
 	border-top-width: 80%;
-	margin-top: 180px;
+	margin-top: 100px;
+	margin-bottom: 100px;
 	border-bottom: solid lightgrey 1px;
-	background-color: #B6D6C6;
+	background-image: url('http://s4.postimg.org/6bpr8ce4d/The_Fugitive_Prophet_COVER_JPEG_9_9_16_3.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
 }
+.buy-section h1, h2{ 
+	font-weight: bold;
+	text-shadow: white 2px 2px;
+ }
 
-.fake-email{
-	height: 40px;
-	width: 280px;
-	border:solid black 1px;
-	margin-top: 15px;
-}
+
+ .buy-text{
+ 	line-height: 15px;
+ 	width: 500px;
+ 	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+ #book-btn{
+ 	background-color:#ECF5E2;
+ 	color: black;
+ 	border:solid #AECCC0 2px;
+ 	font-weight: bold;
+ 	font-family: 'Roboto', sans-serif;
+ 	font-size: 18px;
+ 	text-decoration: none;
+ 	width:200px;
+
+ }
+  #book-btn:hover{
+ 	background-color: #AECCC0;
+ 	border:solid #AECCC0 2px;
+ 	font-size: 18px;
+ 	text-decoration: none;
+
+ }
+
 
 /*About Page*/
 .about-page{
@@ -118,7 +151,7 @@ i {
 	padding-left: 10px;
 }
 i:hover{
-	color:#4E8E4E;
+	color:#588d78;
 }
 
 
