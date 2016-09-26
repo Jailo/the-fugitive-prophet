@@ -8,10 +8,10 @@ p{
 	font-size: 16px;
 } 
 p a {
-	color:#4E8E4E;
+	color:#407272;
 }
 p a:hover{
-	color:#3A6B3A;
+	color:#2e5151;
 	text-decoration: none;
 }
 body{
@@ -72,27 +72,47 @@ body{
 
 
 /*Email Signup Section*/
+
+#mc_embed_signup{
+	background:#B6D6C6; 
+	font:18px sans-serif, Helvetica, Arial; 
+	width: 65%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+}
+#mce-EMAIL{
+    max-height: 45px;
+    min-height: 35px;
+	width: 100%;
+	position: inherit;
+	display: inline;
+}
+#mc-embedded-subscribe{
+	position: inherit;
+	width: 100%;
+	background-color: #5ca3a3;
+	border:solid  #5ca3a3;
+	font-size: 14px;
+	font-weight: bold;
+
+}
+ #mc-embedded-subscribe:hover {
+  	background-color: #4a8282;
+  	border:solid #4a8282;
+  }
+
 #hr{
 	border:solid white;
 }
 
-.email-signup{
-	height:325px;
+#email-signup-page{
+	height:auto;
 	width:100%;
-	padding:80px;
-	border-top:solid lightgrey 1px;
-	border-top-width: 80%;
+	padding:50px;
 	margin-top: 120px;
-	margin-bottom: 100px;
-	border-bottom: solid lightgrey 1px;
+	margin-bottom: 120px;
 	background-color: #B6D6C6;
-}
-
-.fake-email{
-	height: 40px;
-	width: 280px;
-	border:solid black 1px;
-	margin-top: 15px;
 }
 
 /*About Page*/
@@ -122,7 +142,7 @@ i {
 	padding-left: 10px;
 }
 i:hover{
-	color:#4E8E4E;
+	color:#407272;
 }
 
 
